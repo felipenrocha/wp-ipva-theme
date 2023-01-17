@@ -106,7 +106,10 @@ $(document).ready(function () {
 
         }
         callNow = $(".call-now");
-
+        callNow.click(function (e) { 
+            window.open("https://wa.me/5571991816353");
+            
+        });
 
 
         // Print our HTML to the web page
