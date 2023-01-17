@@ -94,9 +94,9 @@ $(document).ready(function () {
                 "<br><br><br><h1 class='banner-title'>" + slideArray[i].title + "</h1>" +
                 "<h4 class='banner-subtitle'>" + slideArray[i].subtitle + "</h4>" +
                 "<br><br>" +
-                "<h6 class='call-now'>" +
+                "<a class='call-now-button' href='https://wa.me/5571991816353' target='_blank'> <h6 class='call-now'>" +
                 "<i class='fab fa-whatsapp'></i>" +
-                "(71) 99181-6353</h6>" +
+                "(71) 99181-6353</h6></a>" +
                 "<br><br><br><br>" +
                 "<button class='btn btn-warning'><a class='button-text' href='" + slideArray[i].link + "' target='_blank'>" +
                 "<i class='fab fa-whatsapp' style='font-size:20px;'></i> &nbsp;" +
@@ -107,6 +107,7 @@ $(document).ready(function () {
         }
         callNow = $(".call-now");
         callNow.click(function (e) { 
+            console.log("in")
             window.open("https://wa.me/5571991816353");
             
         });

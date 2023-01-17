@@ -16,7 +16,9 @@ body {
     color: white;
 
 }
-
+.call-now-button {
+    text-decoration: none;
+}
 .box {
     height: 200px;
     width: 200px;
