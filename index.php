@@ -42,6 +42,9 @@
                         <a id="section-navbar-licenciamento" class="nav-link">Total</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#preco">Preço</a>
                     </li>
                     <li class="nav-item">
@@ -71,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12" style="text-align: center;">
-                    <h2>Serviços</h2>
+                    <h2 id="servicos">Serviços</h2>
                 </div>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>

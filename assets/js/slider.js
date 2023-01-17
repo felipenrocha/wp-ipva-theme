@@ -62,7 +62,7 @@ $(document).ready(function () {
     );
     var rastrek2 = new Slide(
         "RASTREK",
-        "A Soluções exclusivas para o seu veículo ficar protegido por apenas R$49,90/mês",
+        "Soluções exclusivas para o seu veículo ficar protegido por apenas R$49,90/mês",
         "assets/images/banner4.jpg",
         "https://wa.me/5571991816353"
     );
@@ -93,14 +93,21 @@ $(document).ready(function () {
                 "<div class='slideOverlay'>" +
                 "<br><br><br><h1 class='banner-title'>" + slideArray[i].title + "</h1>" +
                 "<h4 class='banner-subtitle'>" + slideArray[i].subtitle + "</h4>" +
-                "<br><br><br><br><button class='btn btn-warning'><a class='button-text' href='" + slideArray[i].link + "' target='_blank'>" +
+                "<br><br>" +
+                "<h6 class='call-now'>" +
+                "<i class='fab fa-whatsapp'></i>" +
+                "(71) 99181-6353</h6>" +
+                "<br><br><br><br>" +
+                "<button class='btn btn-warning'><a class='button-text' href='" + slideArray[i].link + "' target='_blank'>" +
                 "<i class='fab fa-whatsapp' style='font-size:20px;'></i> &nbsp;" +
                 "Contrate Agora</a></button>" +
                 "</div>" +
                 "</div>";
 
         }
-        // "<?php echo get_template_directory_uri().'/assets/images/logo-white.png';?>"
+        callNow = $(".call-now");
+
+
 
         // Print our HTML to the web page
         document.getElementById("mySlider").innerHTML = myHTML;
@@ -179,4 +186,7 @@ $(document).ready(function () {
     $('#sliderNext').click(function () {
         nextSlide();
     });
+    const interval = setInterval(function () {
+        nextSlide();
+    }, 4500);
 });
