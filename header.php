@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rastrek Bahia - Rastreador e Bloqueador Veicular</title>
-    <link rel="icon" href="assets/images/logo-white.png">
+    <title>Rastrek Bahia - Rastreamento e Monitoramento Veicular</title>
+    <link rel="icon" href="<?php echo get_template_directory_uri().'/assets/images/icon-rastrek.png';?>" size="192x192">
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">

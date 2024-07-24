@@ -1,4 +1,4 @@
-var templateUrl = "wp-content/themes/ipva-total-theme/"
+var templateUrl = "wp-content/themes/wp-ipva-theme/"
 $(document).ready(function () {
     /*-----------------------------------------------------------------
     -----------------------------------------------------------------
@@ -50,21 +50,21 @@ $(document).ready(function () {
 
     var rastrek1 = new Slide(
         "RASTREK",
-        "Rastreamento Veicular",
-        "assets/images/road.jpg",
-        "https://wa.me/5571991816353"
-    );
-    var total1 = new Slide(
-        "Total Serviços",
-        " Medo de Blitz??? Fique tranquilo! Parcelamos seu IPVA e Multas em 12X.",
-        "assets/images/banner3.jpg",
-        "https://wa.me/5571991816353"
+        "Rastreamento Veicular <br> Acompanhe a localização em tempo real do seu veículo.",
+        "assets/images/01.png",
+        "https://wa.me/71993559988"
     );
     var rastrek2 = new Slide(
         "RASTREK",
-        "Soluções exclusivas para o seu veículo ficar protegido por apenas R$49,90/mês",
-        "assets/images/banner4.jpg",
-        "https://wa.me/5571991816353"
+        "Soluções exclusivas para o seu veículo ficar protegido por apenas R$59,90/mês",
+        "assets/images/02.jpeg",
+        "https://wa.me/71993559988"
+    );
+    var rastrek3 = new Slide(
+        "RASTREK",
+        "Relatórios completos de trajetos, locais e tempo de parada, alertas de velocidade e ignição ligada, cerca virtual, bloqueio remoto e muito mais.",
+        "assets/images/03.jpeg",
+        "https://wa.me/71993559988"
     );
 
 
@@ -94,9 +94,9 @@ $(document).ready(function () {
                 "<br><br><br><h1 class='banner-title'>" + slideArray[i].title + "</h1>" +
                 "<h4 class='banner-subtitle'>" + slideArray[i].subtitle + "</h4>" +
                 "<br><br>" +
-                "<a class='call-now-button' href='https://wa.me/5571991816353' target='_blank'> <h6 class='call-now'>" +
+                "<a class='call-now-button' href='https://wa.me/71993559988' target='_blank'> <h6 class='call-now'>" +
                 "<i class='fab fa-whatsapp'></i>" +
-                "(71) 99181-6353</h6></a>" +
+                "(71) 99355-9988</h6></a>" +
                 "<br><br><br><br>" +
                 "<button class='btn btn-warning'><a class='button-text' href='" + slideArray[i].link + "' target='_blank'>" +
                 "<i class='fab fa-whatsapp' style='font-size:20px;'></i> &nbsp;" +

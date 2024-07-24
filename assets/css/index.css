@@ -63,6 +63,7 @@ button>a {
     margin-top: 5px;
 }
 .navbar-fixed-top.scrolled {
+    height: 70px;
     background-color: rgb(0, 0, 0) !important;
     opacity: 80%;
     transition: background-color 200ms linear;
